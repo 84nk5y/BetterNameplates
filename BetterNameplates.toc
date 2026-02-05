@@ -1,11 +1,8 @@
-## Interface: 11507
+## Interface: 120000
 ## Title: BetterNameplates
 ## Category-enUS: Better UI
 ## IconTexture: 618858
 ## Notes: Tweaks to blizzard nameplates
 ## Author: Banksy
 
-OverrideBuffs.lua
-OverrideColor.lua
-OverridePlayerPlate.lua
-PetHealthBar.xml
+core.lua
