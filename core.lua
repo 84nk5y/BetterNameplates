@@ -1,3 +1,5 @@
 hooksecurefunc(NamePlateAuraItemMixin, "SetAura", function(self, ...)
-    self.Cooldown:SetHideCountdownNumbers(true)
+    if self and not issecretvalue(self) then
+        self.Cooldown:SetHideCountdownNumbers(true)
+    end
 end)
